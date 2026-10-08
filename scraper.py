@@ -26,4 +26,4 @@ if response.status_code == 200:
     print(f"Total records scraped: {len(quotes)}")
 else:
     print("Failed to access website.")
-    print("Status code:", response.status_code)
+    print("Status code:", response.status
