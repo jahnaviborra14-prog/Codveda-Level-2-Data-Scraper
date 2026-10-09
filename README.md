@@ -32,4 +32,30 @@ Codveda-Level-2-Data-Scraper/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+## Installation
 
+1. Install Python 3 on your system.
+2. Open a terminal in the project folder.
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## How to Run
+
+Run the following command in the terminal:
+
+```bash
+python scraper.py
+```
+
+The scraper collects quotes and author names from Quotes to Scrape and saves the results in `scraper_data.csv`.
+
+## Expected Output
+
+```text
+Scraping completed successfully!
+Total records scraped: 10
+Data saved to: scraper_data.csv
+```
